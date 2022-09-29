@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace BurgerTown.Pages.Admin.burgers
 {
-
+    [Authorize]
     public class IndexModel : PageModel
     {
         private readonly BurgerTown.Data.DataContext _context;
