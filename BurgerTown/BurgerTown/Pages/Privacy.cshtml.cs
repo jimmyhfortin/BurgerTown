@@ -18,7 +18,7 @@ public class PrivacyModel : PageModel
 
     public void OnGet()
     {
-        var burger = new Burger() {Name = "Burger test", Price = 15,BurgerID = 1,Ingredient = "salda",Vegetarian = true};
+        var burger = new Burger() {Name = "Burger test", Price = 15,Ingredient = "salda",Vegetarian = true};
         dataContext.Burgers.Add(burger);
         dataContext.SaveChanges();
     }

@@ -15,6 +15,26 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Admin/burgers/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vYnVyZ2Vycy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Admin/burgers/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vYnVyZ2Vycy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Admin/burgers/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vYnVyZ2Vycy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Admin/burgers/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vYnVyZ2Vycy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Admin/burgers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWRtaW4vYnVyZ2Vycy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
