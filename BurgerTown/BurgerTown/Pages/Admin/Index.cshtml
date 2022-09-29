@@ -2,8 +2,11 @@
 @model BurgerTown.Pages.Admin.IndexModel
 
 @{
-    Layout = null;
+    ViewData["Title"] = "Administration des burgers";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
 }
+
+<h1>@ViewData["Title"]</h1>
 
 <form method="post">
 <input type="text" name="username" placeholder="Login">

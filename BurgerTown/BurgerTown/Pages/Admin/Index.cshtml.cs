@@ -8,14 +8,20 @@ using Microsoft.EntityFrameworkCore;
 using BurgerTown.Data;
 using BurgerTown.Models;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace BurgerTown.Pages.Admin;
-
-public class IndexModel : PageModel
+namespace BurgerTown.Pages.Admin
 {
-    public void OnGet()
+
+    public class IndexModel : PageModel
     {
-        
+        public void OnGet()
+        {
+            
+        }
+
+        public void OnPost()
+        {
+            Console.WriteLine("wowowowowwowoo");
+        }
     }
 }
