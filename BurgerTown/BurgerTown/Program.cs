@@ -1,20 +1,46 @@
 using System;
+using BurgerTown.Data;
+using Microsoft.EntityFrameworkCore;
 
-namespace MyApp // Note: actual namespace depends on the project name.
+namespace BurgerTown
 {
     internal class Program
     {
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
+
+        private static void CreateDbIfNotExists(IHost host)
+        {
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                try
+                {
+                    var context = services.GetRequiredService<DataContext>();
+                    context.Database.EnsureCreated();
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred creating the DB.");
+                }
+            }
+        }
+
         static void Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            //var builder = WebApplication.CreateBuilder(args);
+            //builder.Services.AddRazorPages();
+            //var app = builder.Build();
+            
+            
+            var host = CreateHostBuilder(args).Build();
+            CreateDbIfNotExists(host);
+            host.Run();
 
-// Add services to the container.
-            builder.Services.AddRazorPages();
-
-            var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-            if (!app.Environment.IsDevelopment())
+            // Configure the HTTP request pipeline.
+            /*if (!app.Environment.IsDevelopment())
             {
                 app.UseExceptionHandler("/Error");
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
@@ -30,12 +56,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
 
             app.MapRazorPages();
 
-            app.Run();
+            app.Run();*/
         }
     }
 }
-
-
-
-
-

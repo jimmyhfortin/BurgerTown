@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jimmy/Documents/DOT_NET project/c#_file/BurgerTown/BurgerTown/BurgerTown.csproj": {}
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {}
   },
   "projects": {
-    "/home/jimmy/Documents/DOT_NET project/c#_file/BurgerTown/BurgerTown/BurgerTown.csproj": {
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jimmy/Documents/DOT_NET project/c#_file/BurgerTown/BurgerTown/BurgerTown.csproj",
+        "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
         "projectName": "BurgerTown",
-        "projectPath": "/home/jimmy/Documents/DOT_NET project/c#_file/BurgerTown/BurgerTown/BurgerTown.csproj",
+        "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
         "packagesPath": "/home/jimmy/.nuget/packages/",
-        "outputPath": "/home/jimmy/Documents/DOT_NET project/c#_file/BurgerTown/BurgerTown/obj/",
+        "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jimmy/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,32 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
