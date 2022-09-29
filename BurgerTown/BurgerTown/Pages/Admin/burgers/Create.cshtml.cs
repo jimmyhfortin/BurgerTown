@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using BurgerTown.Data;
 using BurgerTown.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BurgerTown.Pages.Admin.burgers
 {
+    [Authorize]
     public class CreateModel : PageModel
     {
         private readonly BurgerTown.Data.DataContext _context;

@@ -2,13 +2,13 @@
 @model BurgerTown.Pages.Admin.burgers.DeleteModel
 
 @{
-    ViewData["Title"] = "Delete";
+    ViewData["Title"] = "Supprimer";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>@ViewData["Title"]</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Voulez vous supprimer cet élément ?</h3>
 <div>
     <h4>Burger</h4>
     <hr />
@@ -41,7 +41,7 @@
     
     <form method="post">
         <input type="hidden" asp-for="Burger.BurgerID" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-page="./Index">Back to List</a>
+        <input type="submit" value="Supprimer" class="btn btn-danger" /> |
+        <a asp-page="./Index">Retour à la liste</a>
     </form>
 </div>

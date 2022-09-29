@@ -8,9 +8,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BurgerTown.Data;
 using BurgerTown.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace BurgerTown.Pages.Admin.burgers
 {
+    [Authorize]
     public class EditModel : PageModel
     {
         private readonly BurgerTown.Data.DataContext _context;
@@ -48,7 +50,8 @@ namespace BurgerTown.Pages.Admin.burgers
                 return Page();
             }
 
-            _context.Attach(Burger).State = EntityState.Modified;
+            //_context.Attach(Burger).State = EntityState.Modified;
+            _context.Update(Burger);
 
             try
             {
