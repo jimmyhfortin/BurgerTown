@@ -40,6 +40,7 @@ namespace BurgerTown.Pages.Admin
             
             if ((username == adminLogin) && (password == adminPassword))
             {
+                DisplayInvalideAccountMessage = false;
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, username)
