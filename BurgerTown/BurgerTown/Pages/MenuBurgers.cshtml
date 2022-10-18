@@ -1,24 +1,39 @@
 @page
 @model BurgerTown.Pages.MenuBurgersModel
 
+
 @{
     ViewData["Title"] = "Administration des burgers";
 }
  <!DOCTYPE html>
 <html lang="fr">
 <head>
-<title>Menu des burgers</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> 
+    <title>Menu des burgers</title>
 </head>
 <body>
-    <h1>Menu des burgers</h1>
 
-    <a asp-page="Index">Retrour à l'acceuil</a>
-    
-<ul>
-    <li>Burger1</li>
-    <li>Burger2</li>
-    <li>Burger3</li>
-</ul>
+    <a asp-page="Index" id="burgerTown">Burger town</a>
+    <div class="menu_title">
+        <h1>Les burgers</h1>
+    </div>
+
+
+    <div class="menuList">
+        @foreach (var burger in Model.Burger)
+        {
+            <div class="menuListItem">
+                <span class="menuListTitle">@burger.Name$</span>
+                <span class="menuListPrice"> @String.Format("{0:0.00}", burger.Price) $</span>
+                <br />
+                <span class="menuListIngredients"> - @burger.Ingredient $</span>
+            </div>
+            
+        }
+    </div>
 
 </body>
 </html> 
