@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {}
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {}
   },
   "projects": {
-    "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {
+    "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
+        "projectUniqueName": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
         "projectName": "BurgerTown",
-        "projectPath": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
+        "projectPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/BurgerTown.csproj",
         "packagesPath": "/home/jimmy/.nuget/packages/",
-        "outputPath": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/obj/",
+        "outputPath": "/home/jimmy/Documents/Developpement_logiciel/GitKraken/Dev_logiciel/BurgerTown/BurgerTown/BurgerTown/BurgerTown/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/jimmy/.nuget/NuGet/NuGet.Config"

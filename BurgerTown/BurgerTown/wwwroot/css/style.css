@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
   font-family: 'Dancing Script', cursive;
   color: #eeee;
 }
@@ -28,6 +29,7 @@ h1 {
   display: inline;
   background-color: #DD7835;
   padding: 1rem;
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 3rem;
 }
@@ -43,6 +45,7 @@ h1 {
   margin: 2rem 0;
 }
 .menuListTitle {
+  font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 2.2rem;
 }
@@ -52,6 +55,7 @@ h1 {
 }
 .menuListIngredients {
   display: block;
+    font-family: 'Playfair Display', serif;
   font-size: 1.5rem;
   color: #D8D8D8;
   margin-top: .7rem;
