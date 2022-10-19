@@ -6,13 +6,20 @@
  <!DOCTYPE html>
 <html lang="fr">
 <head>
-<title>BurgerTown</title>
+    <link rel="stylesheet" href="~/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,900&display=swap" rel="stylesheet"> 
+    <title>BurgerTown</title>
 </head>
-<body>
-<div>
-    <h1 class="display-4">BurgerTown Acceuil</h1>
-    <p><a asp-page="MenuBurgers">Voir le menu des burgers</a></p>
-</div>
+<body class="homePage">
+    <div class="centered">
+        <h1 id="burgerTownHomePage">BurgerTown</h1>
+        <a class="homePage" asp-page="MenuBurgers">Voir le menu</a>
+    </div>
 
 </body>
 </html> 
