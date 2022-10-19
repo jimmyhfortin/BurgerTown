@@ -29,10 +29,14 @@
         @foreach (var burger in Model.Burger)
         {
             <div class="menuListItem">
-                <span class="menuListTitle">@burger.Name$</span>
-                <span class="menuListPrice"> @String.Format("{0:0.00}", burger.Price) $</span>
+                <span class="menuListTitle">@burger.Name</span>
+                <span class="menuListPrice"> @String.Format("{0:0.00}",burger.Price)$</span>
                 <br />
-                <span class="menuListIngredients"> - @burger.Ingredient $</span>
+                <span class="menuListIngredients">@burger.Ingredient </span>
+                @if (burger.Vegetarian == true)
+                {
+                    <span class="menuListVege">Végétarienne</span>
+                }
             </div>
             
         }
