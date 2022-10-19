@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "+Q5KO4VlOmAyD1SceRZlnbwb6ZReiQrSvabJVs6x1GY=",
+  "Hash": "z7Dg2KKD+x01PQ+R/5uKagaS1C7AbCT5xXrmOesWEb4=",
   "Source": "BurgerTown",
   "BasePath": "_content/BurgerTown",
   "Mode": "Default",
@@ -102,23 +102,6 @@
       "OriginalItemSpec": "wwwroot/favicon.ico"
     },
     {
-      "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/img/backgroud.jpg",
-      "SourceId": "BurgerTown",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/",
-      "BasePath": "_content/BurgerTown",
-      "RelativePath": "img/backgroud.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/backgroud.jpg"
-    },
-    {
       "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/img/backgroud3.jpg",
       "SourceId": "BurgerTown",
       "SourceType": "Discovered",
@@ -136,23 +119,6 @@
       "OriginalItemSpec": "wwwroot/img/backgroud3.jpg"
     },
     {
-      "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/img/mainBackgourd3.jpg",
-      "SourceId": "BurgerTown",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/",
-      "BasePath": "_content/BurgerTown",
-      "RelativePath": "img/mainBackgourd3.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/mainBackgourd3.jpg"
-    },
-    {
       "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/img/mainBackgroud1.jpg",
       "SourceId": "BurgerTown",
       "SourceType": "Discovered",
@@ -168,23 +134,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/img/mainBackgroud1.jpg"
-    },
-    {
-      "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/img/mainBackgroud2.jpg",
-      "SourceId": "BurgerTown",
-      "SourceType": "Discovered",
-      "ContentRoot": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/",
-      "BasePath": "_content/BurgerTown",
-      "RelativePath": "img/mainBackgroud2.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/img/mainBackgroud2.jpg"
     },
     {
       "Identity": "/home/jimmy/Documents/BurgerTown/BurgerTown/BurgerTown/wwwroot/js/site.js",
