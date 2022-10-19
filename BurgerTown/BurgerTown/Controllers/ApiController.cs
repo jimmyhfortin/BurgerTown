@@ -2,23 +2,32 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BurgerTown.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BurgerTown.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
-    public class ApiController : ControllerBase
+    public class ApiController : Controller
     {
-        // GET: api/Api
+        /*// GET: api/Api
         [HttpGet]
         public IEnumerable<string> Get()
         {
             return new string[] { "value1", "value2" };
-        }
+        }*/
+        
+        [HttpGet]
+        [Route("GetBurgers")]
+        public IActionResult GetBurgers()
+        {
+            var burger = new Burger(){Name= "burger test", Price = 34, Vegetarian = false, Ingredient ="Beef, cheez, tomato"};
 
-        // GET: api/Api/5
+            return Json(burger);
+        }
+        /*// GET: api/Api/5
         [HttpGet("{id}", Name = "Get")]
         public string Get(int id)
         {
@@ -41,6 +50,6 @@ namespace BurgerTown.Controllers
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
-        }
+        }*/
     }
 }
