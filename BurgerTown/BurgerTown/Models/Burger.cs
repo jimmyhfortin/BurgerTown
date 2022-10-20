@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text.Json.Serialization;
 
 namespace BurgerTown.Models;
@@ -15,8 +16,11 @@ public class Burger
     [Display(Name = "Végétarienne")]
     public bool Vegetarian { get;  set; }
     [Display(Name = "Ingrédients")]
+    [JsonIgnore]
     public string Ingredient { get;  set; }
-
+    
+    [NotMapped]
+    [JsonPropertyName("Ingrédients")]
     public string[] IngredientList
     {
         get
