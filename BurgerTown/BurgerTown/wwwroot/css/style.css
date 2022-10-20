@@ -42,28 +42,37 @@ body.homePage {
 h2 {
   display: inline;
   background-color: #DD7835;
-  padding: .6rem;
+  padding: .6rem 1.2rem;
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 3rem;
+  border: .15rem solid #f69250;
+  border-radius: .5rem;
+  box-shadow: 5px 10px 18px #262626;
 }
 #burgerTownHomePage {
   font-weight: bold;
   font-size: 7rem;
-  margin: 2rem;
+  margin: 2rem 2rem 0rem;
 }
 a.homePage {
-  font-size: 2rem;
+  font-size: 2.2rem;
   display: block;
   text-align: center;
   padding-bottom: 4rem;
 }
+.homePageCitation {
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem;
+}
 .menu_title {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  margin-left: 1rem;
 }
 .menuList {
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 .menuListItem {
   margin: 2rem 0;
@@ -72,6 +81,7 @@ a.homePage {
   font-family: 'Playfair Display', serif;
   font-weight: bold;
   font-size: 1.8rem;
+  text-shadow: 5px 8px 14px #424242;
 }
 .menuListPrice {
   color: #DD7835;
@@ -85,6 +95,7 @@ a.homePage {
   color: #D8D8D8;
   padding-bottom: .5rem;
   width: 40rem;
+  text-shadow: 5px 8px 14px #424242;
 }
 .menuListVege {
   font-size: 1rem;
